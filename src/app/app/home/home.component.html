@@ -1,0 +1,16 @@
+<div class="all">
+  <content class="image">
+    <div class="image">
+      <button (click)="moverPrimeiroParaUltimo()"><</button>
+      <img *ngFor="let imagem of imagens" [src]="imagem" alt="Imagem" />
+      <button (click)="moverUltimoParaPrimeiro()">></button>
+    </div>
+  </content>
+  <main class="txt">
+    <p>
+      Here is some equipaments that i build by my own, one by one, all handmade
+      job.
+    </p>
+    <p></p>
+  </main>
+</div>
