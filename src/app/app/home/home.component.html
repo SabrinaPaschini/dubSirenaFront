@@ -1,7 +1,7 @@
 <div class="all">
   <content class="image">
     <div class="image">
-      <button (click)="moverPrimeiroParaUltimo()"><</button>
+      <button id="btn-img" (click)="moverPrimeiroParaUltimo()"><</button>
       <img *ngFor="let imagem of imagens" [src]="imagem" alt="Imagem" />
       <button (click)="moverUltimoParaPrimeiro()">></button>
     </div>

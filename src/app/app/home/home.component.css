@@ -52,6 +52,14 @@ button {
   box-shadow: 1px 1px 10px 1px #8a8181af;
 }
 
+
+  
+#btn-img {
+ 
+  background-image: url('/assets/img/seta-para-esquerda.png');
+}
+
+
 h1{
     margin-bottom: 1rem;
 }
