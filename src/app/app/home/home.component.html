@@ -1,8 +1,22 @@
 <div class="all">
   <content class="image">
-    <div class="image">
-      <button id="btn-img" (click)="moverPrimeiroParaUltimo()"><</button>
-      <img *ngFor="let imagem of imagens" [src]="imagem" alt="Imagem" />
+    <div class="desk">
+      <button (click)="moverPrimeiroParaUltimo()"><</button>
+      <img
+        *ngFor="let imagem of imagens.slice(0, 6)"
+        [src]="imagem"
+        alt="Imagem"
+      />
+      <button (click)="moverUltimoParaPrimeiro()">></button>
+    </div>
+
+    <div class="mobo">
+      <button (click)="moverPrimeiroParaUltimo()"><</button>
+      <img
+        *ngFor="let imagem of imagens.slice(0, 1)"
+        [src]="imagem"
+        alt="Imagem"
+      />
       <button (click)="moverUltimoParaPrimeiro()">></button>
     </div>
   </content>

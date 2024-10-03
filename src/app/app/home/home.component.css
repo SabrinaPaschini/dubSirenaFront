@@ -4,22 +4,48 @@
   box-sizing: border-box;
 }
 
+.mobo {
+  display: none;
+}
+
+@media (max-width: 430px) {
+  .mobo,
+  img,
+  button {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mobo img {
+    width: 200px;
+  }
+
+  .mobo button {
+    width: 1rem;
+  }
+
+  .image .desk {
+    display: none;
+  }
+}
+
 .all {
-  width: auto;
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  margin-left: 6rem;
+  margin-left: 2rem;
   flex-direction: row;
   text-align: center;
-  
 }
 
-.image,
+.image .desk img {
+  width: 200px;
+  height: 150px;
+}
+
+.desk,
 img,
 button {
-  width: 160px;
-  height: 150px;
   display: flex;
   flex-direction: row;
   margin: 0.5rem;
@@ -36,7 +62,7 @@ button {
   border-radius: 2rem;
   width: 80px;
   background-color: transparent;
-  border: solid 1 px rgb(148, 143, 143);
+  border: solid 1px rgb(148, 143, 143);
   text-transform: uppercase;
   align-items: center;
   justify-content: center;
@@ -52,17 +78,9 @@ button {
   box-shadow: 1px 1px 10px 1px #8a8181af;
 }
 
-
-  
-#btn-img {
- 
-  background-image: url('/assets/img/seta-para-esquerda.png');
+h1 {
+  margin-bottom: 1rem;
 }
-
-
-h1{
-    margin-bottom: 1rem;
-}
-.txt{
-    margin-top: 5rem;
+.txt {
+  margin-top: 5rem;
 }

@@ -94,3 +94,15 @@ a {
   padding: 1rem;
   text-align: center;
 }
+
+@media (max-width: 430px) {
+  .all-btn{
+    display: block;
+
+  }
+
+  .all-btn img{
+    margin-left: 3.5rem;
+  }
+}
+

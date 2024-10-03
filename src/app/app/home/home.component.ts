@@ -18,6 +18,9 @@ export class HomeComponent implements OnInit {
       'assets/img/syndrum flavio.jpg',
       'assets/img/dubsydrum.jpeg',
       'assets/img/njd.jpeg',
+      'assets/img/syndrum flavio.jpg',
+      'assets/img/dubsydrum.jpeg',
+      'assets/img/njd.jpeg',
     ];
   }
 
