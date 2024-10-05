@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/dubsirenaFrontEndSPA",
+            "outputPath": "dist/dubSirenaFront",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -26,7 +26,7 @@
               "src/styles.css"
             ],
             "scripts": [],
-            "baseHref": "/dubsirenaFrontEndSPA/"  
+            "baseHref": "/dubSirenaFront/"  
           },
           "configurations": {
             "production": {
@@ -49,7 +49,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/dubsirenaFrontEndSPA/" 
+              "baseHref": "/dubSirenaFront/" 
             },
             "development": {
               "buildOptimizer": false,
@@ -58,7 +58,7 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true,
-              "baseHref": "/dubsirenaFrontEndSPA/" 
+              "baseHref": "/dubSirenaFront/" 
             }
           },
           "defaultConfiguration": "production"
