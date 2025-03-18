@@ -22,12 +22,15 @@
   }
 
   .mobo button {
-    width: .5rem;
+    width: 0.5rem;
   }
 
   .image .desk {
     display: none;
   }
+}
+
+@media (max-width: 1080px) {
 }
 
 .all {
