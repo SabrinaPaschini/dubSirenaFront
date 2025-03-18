@@ -28,12 +28,13 @@ a {
   background-color: transparent;
   border: solid 1px rgba(129, 124, 124, 0.342);
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn-home:hover {
   border-color: #33302faf;
- border: solid 1px rgb(129, 124, 124);
- box-shadow: 1px 1px 10px 1px #8a8181af;
+  border: solid 1px rgb(129, 124, 124);
+  box-shadow: 1px 1px 10px 1px #8a8181af;
   transition: 1s;
 }
 
@@ -45,12 +46,12 @@ a {
   background-color: transparent;
   border: solid 1px rgba(129, 124, 124, 0.342);
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn-njd:hover {
   border-color: #cc1212af;
   box-shadow: 1px 1px 10px 1px #cc1212af;
-  
   transition: 1s;
 }
 
@@ -62,6 +63,7 @@ a {
   background-color: transparent;
   border: solid 1px rgba(129, 124, 124, 0.342);
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn-syn:hover {
@@ -78,6 +80,7 @@ a {
   background-color: transparent;
   border: solid 1px rgba(129, 124, 124, 0.342);
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn-lick:hover {
@@ -93,16 +96,16 @@ a {
   margin: 1rem;
   padding: 1rem;
   text-align: center;
+  
 }
 
 @media (max-width: 430px) {
-  .all-btn{
+  .all-btn {
     display: block;
-
+    cursor: pointer;
   }
 
-  .all-btn img{
+  .all-btn img {
     margin-left: 3.5rem;
   }
 }
-
